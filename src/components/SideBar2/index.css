@@ -1,0 +1,82 @@
+
+.sb2Container{
+    height:653px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: darkgrey;
+    padding:14px;
+}
+.prospector-title{
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.segment-title{
+    color:rgb(116, 109, 109);
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+}
+.segment-list{
+    list-style-type: none;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.addSegmentBtn{
+    background-color: blue;
+    border-width: 0px;
+    padding:4px;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.segmentFormContainer{
+    width:220px;
+    border-radius: 12px;
+    padding:12px;
+}
+.newSegmentTitle{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+.formLabel{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+.cancelBtn{
+    border-width: 0px;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    margin-top: 24px;
+    margin-right: 18px;
+    border-radius: 4px;
+    width: 80px;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+}
+.saveBtn{
+    border-width: 0px;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    background-color:blue;
+    margin-top: 24px;
+    border-radius: 4px;
+    width: 80px;
+}
+.selectContainer{
+    width:220px;
+}
+
+.emojiInput{
+    display: flex;
+}
