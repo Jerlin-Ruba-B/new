@@ -1,0 +1,110 @@
+
+.headerContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 12px;
+    margin-left: 750px;
+}
+.headerIcon{
+    width:45px;
+    height:40px;
+    margin-right: 12px;
+}
+.horiLine{
+    width: 1020px;
+}
+.mainSegmentCard{
+    padding: 16px;
+}
+.segmentHeadings{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.addBtnS{
+    background-color: transparent;
+    padding: 12px;
+    height:60px;
+    width:70px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-size: 24px;
+}
+.tableForm{
+    border:1px solid black;
+    border-radius: 4px;
+    width:250px;
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+}
+.formHeading{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+.labels{
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.iconsContainer{
+    display: flex;
+}
+.btnsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cancelBtn{
+    border-width: 0px;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    margin-top: 24px;
+    margin-right: 18px;
+    border-radius: 4px;
+    width: 80px;
+}
+.saveBtn{
+    border-width: 0px;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    background-color:blue;
+    margin-top: 24px;
+    border-radius: 4px;
+    width: 80px;
+}
+.listC{
+    display: flex;
+}
+.tableCardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding:12px;
+    background-color: transparent;
+    padding: 12px;
+    height:30px;
+    width:40px;
+    border-radius: 6px;
+    margin-right: 18px;
+}
+.miniCard{
+    display: flex;
+    flex-direction: column;
+    
+}
+.miniCardName{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
